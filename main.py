@@ -202,7 +202,7 @@ def main():
     Simple CLI for sending emails with Python
     """
     cli_print("Sending Email CLI", color="blue", figlet=True)
-    cli_print("*** Welcome to Sending Email With Python***", "green")
+    cli_print("*** Welcome to Sending Email With Python ***", "green")
 
     email_info = get_email_info()
     send_email(email_info)
